@@ -31,8 +31,8 @@ export function WeatherProvider({ children }: WeatherContextProviderProps) {
 
   const getCity = async (city: string): Promise<void | Error> => {
     try {
-      const apiKey: string = import.meta.env.VITE_API_KEY;
-      const apiUrl = `/weather?q=${city}&units=metric&appid=${apiKey}&lang=pt_br`
+      // const apiKey: string = import.meta.env.VITE_API_KEY;
+      const apiUrl = `/weather?q=${city}&units=metric&appid=4537058c365f1aaf1ca0bd9d377b9556&lang=pt_br`
 
       const response = await api.get(`${apiUrl}`)
 
