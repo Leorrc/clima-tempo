@@ -70,6 +70,10 @@ export function WeatherProvider({ children }: WeatherContextProviderProps) {
           current.iconUrl = 'images/mist.png';
           break;
 
+        case 'Drizzle':
+          current.iconUrl = 'images/rain.png';
+          break;
+
         default:
           current.iconUrl = '';
       }
