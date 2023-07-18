@@ -6,8 +6,7 @@ import nuvem from '/nuvem.svg'
 import * as z from 'zod'
 
 const searchFormSchema = z.object({
-  city: z.string()
-    .trim()
+  city: z.string().trim()
     .nonempty('O campo de endereço não pode estar vazio.')
     .regex(/^([a-z\\-\s]+)$/i, { message: 'O endereço pode ter apenas letras e hífens.' })
     .min(3, { message: 'O nome precisa ter pelo menos 3 letras.' })
