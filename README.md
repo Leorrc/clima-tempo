@@ -1,5 +1,4 @@
 <div align="center">
-  <h1>App Clima Tempo</h1>
   <img src=".github/logo.png" />
 </div>
 
