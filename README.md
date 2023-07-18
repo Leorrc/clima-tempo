@@ -14,6 +14,8 @@
 
 ## 🚀 Preview
 
+https://github.com/Leorrc/clima-tempo/assets/100796907/2684f2c2-6f36-49ef-9fe7-c1a2ae3011ae
+
 </div>
 
 <p align="center">
